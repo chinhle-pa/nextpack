@@ -2,6 +2,7 @@
 
 namespace Claim;
 
+
 use Illuminate\Config\Repository;
 use Claim\Exceptions\ConfigFileNotFoundException;
 

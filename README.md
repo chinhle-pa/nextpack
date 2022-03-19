@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/nextpack/nextpack/v/stable)](https://packagist.org/packages/nextpack/nextpack) 
 [![License](https://poser.pugx.org/nextpack/nextpack/license)](https://packagist.org/packages/nextpack/nextpack)
-[![Mahmoud Zalt](https://img.shields.io/badge/Author-Mahmoud%20Zalt-orange.svg)](http://www.zalt.me)
+[![Chinh Le](https://img.shields.io/badge/Author-Mahmoud%20Zalt-orange.svg)](http://www.zalt.me)
 
 
 
@@ -72,11 +72,11 @@ After you install a fresh copy of Nextpack, the only thing you need to do is cus
 
 The steps include renaming the code samples shipped with the Nextpack:
 
-1. Change the namespace of the application from `Nextpack\Nextpack` to your `Vendor-name\Package-name`. *(you can do this using the [Replace All] feature of your IDE).*
+1. Change the namespace of the application from `PCV\ClaimPdf` to your `Vendor-name\Package-name`. *(you can do this using the [Replace All] feature of your IDE).*
 2. Update the following values in `composer.json`:  `name`, `description`, `keywords`, `authors`, `autoload` and don't forget to update the `namespaces`. (you might need to run `composer dump-autoload` after the changes).
 3. Run `composer install`
 4. Rename `SampleFacadeAccessor.php` and update the returned string inside the `getFacadeAccessor()` function.
-5. Rename `NextpackServiceProvider` and update the content of the following functions: `facadeBindings()`, `configPublisher()` and `implementationBindings()`.
+5. Rename `PcvServiceProvider` and update the content of the following functions: `facadeBindings()`, `configPublisher()` and `implementationBindings()`.
 6. Update the config file `nextpack.php`, (or remove it if not necessary).
 7. Delete this `README.md` file. And rename the `README.md.READY` to `README.md`.
 8. Update `LICENSE` by replacing `::Vendor-Name` and `::Package-Name` with your vendor and package names.
@@ -99,7 +99,7 @@ $ ./vendor/bin/phpunit
 
 ## Credits
 
-- [Mahmoud Zalt](https://github.com/Mahmoudz)
+- [Chinh Le](https://github.com/Mahmoudz)
 
 
 

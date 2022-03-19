@@ -1,24 +1,24 @@
 <?php
 
-namespace Nextpack\Nextpack;
+namespace Claim;
 
 /**
- * Class Sample
+ * Class App
  *
- * @author  Mahmoud Zalt  <mahmoud@zalt.me>
+ * @author  Chinh Le  <chinhle@pacificcross.com.vn>
  */
-class Sample
+class App
 {
 
     /**
-     * @var  \Nextpack\Nextpack\Config
+     * @var  \Claim\Config
      */
     private $config;
 
     /**
      * Sample constructor.
      *
-     * @param \Nextpack\Nextpack\Config $config
+     * @param \Claim\Config $config
      */
     public function __construct(Config $config)
     {

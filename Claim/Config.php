@@ -1,18 +1,17 @@
 <?php
 
-namespace Nextpack\Nextpack;
+namespace Claim;
 
 use Illuminate\Config\Repository;
-use Nextpack\Nextpack\Exceptions\ConfigFileNotFoundException;
+use Claim\Exceptions\ConfigFileNotFoundException;
 
 /**
  * Class Config
  *
- * @author  Mahmoud Zalt  <mahmoud@zalt.me>
+ * @author  Chinh Le  <chinhle@pacificcross.com.vn>
  */
 class Config
 {
-
     /**
      * Config file name
      */

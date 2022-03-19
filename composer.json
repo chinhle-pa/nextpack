@@ -1,46 +1,48 @@
 {
-  "name": "nextpack/nextpack",
-  "description": "Nextpack is a PHP Packages Framework (Starter Project)",
-  "license": "MIT",
-  "keywords": [
-    "NextPack",
-    "Starter"
-  ],
-  "authors": [
-    {
-      "name": "Mahmoud Zalt",
-      "email": "mahmoud@zalt.me",
-      "homepage": "http://www.zalt.me",
-      "role": "Coffee Maker :)"
+    "name": "claim/claim",
+    "type": "library",
+    "description": "ClaimPDF is a PCV's PHP Packages for fill claim form",
+    "license": "MIT",
+    "keywords": [
+        "PCV",
+        "PDF"
+    ],
+    "authors": [{
+        "name": "Chinh Le",
+        "email": "chinhle@pacificcross.com.vn",
+        "homepage": "https://www.pacificcross.com.vn",
+        "role": "IT Officcer :)"
+    }],
+    "version": "1.0.2",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "illuminate/config": "5.2.*",
+        "tmw/fpdm": "^2.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.*",
+        "mockery/mockery": "0.*",
+        "symfony/var-dumper": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Claim\\": "Claim"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Claim\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
     }
-  ],
-  "require": {
-    "php": ">=5.4.0",
-    "illuminate/config": "5.2.*"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "4.*",
-    "mockery/mockery": "0.*",
-    "symfony/var-dumper": "2.*"
-  },
-  "autoload": {
-    "psr-4": {
-      "Nextpack\\Nextpack\\": "src",
-      "Nextpack\\Library\\": "src/library"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Nextpack\\Nextpack\\Tests\\": "tests"
-    }
-  },
-  "scripts": {
-    "test": "phpunit"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0-dev"
-    }
-  },
-  "minimum-stability": "stable"
 }

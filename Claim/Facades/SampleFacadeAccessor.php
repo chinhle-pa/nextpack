@@ -1,13 +1,13 @@
 <?php
 
-namespace Nextpack\Nextpack\Facades;
+namespace ClaimPdf\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class SampleFacadeAccessor
  *
- * @author  Mahmoud Zalt  <mahmoud@zalt.me>
+ * @author  Chinh Le  <chinhle@pacificcross.com.vn>
  */
 class SampleFacadeAccessor extends Facade
 {

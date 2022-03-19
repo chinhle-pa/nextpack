@@ -1,18 +1,18 @@
 <?php
 
-namespace Nextpack\Nextpack\ServiceProviders;
+namespace ClaimPdf\ServiceProviders;
 
 use Illuminate\Support\ServiceProvider;
-use Nextpack\Nextpack\Contracts\SampleInterface;
-use Nextpack\Nextpack\Facades\SampleFacadeAccessor;
-use Nextpack\Nextpack\Sample;
+use PCV\ClaimPdf\Contracts\SampleInterface;
+use PCV\ClaimPdf\Facades\SampleFacadeAccessor;
+use PCV\ClaimPdf\Sample;
 
 /**
- * Class NextpackServiceProvider
+ * Class PcvServiceProvider
  *
- * @author  Mahmoud Zalt  <mahmoud@zalt.me>
+ * @author  Chinh Le  <chinhle@pacificcross.com.vn>
  */
-class NextpackServiceProvider extends ServiceProvider
+class PcvServiceProvider extends ServiceProvider
 {
 
     /**

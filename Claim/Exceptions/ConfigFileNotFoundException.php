@@ -1,10 +1,10 @@
 <?php
-namespace Nextpack\Nextpack\Exceptions;
+namespace Claim\Exceptions;
 
 /**
  * Class ConfigFileNotFoundException
  *
- * @author  Mahmoud Zalt  <mahmoud@zalt.me>
+ * @author  Chinh Le  <chinhle@pacificcross.com.vn>
  */
 class ConfigFileNotFoundException extends Exception
 {
